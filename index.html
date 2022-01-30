@@ -3,87 +3,64 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial scale =1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
     <title>Victoria Le Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="app.js"></script> -->
+
   </head>
   <body>
-    <nav class="navbar">
+    <!-- navbar section -->
+    <nav class="navbar" >
       <div class="max-width">
         <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
         <ul class="menu">
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About Me</li>
-          <li><a href="#"></a>Projects</li>
-          <li><a href="#"></a>Skills</li>
-          <li><a href="#"></a>Contact</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Skills</a></li>
         </ul>
+        <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+
+        </div>
       </div>
     </nav>
 
+    <!-- home section -->
     <section class="home" id="home">
       <div class="max-width">
-          <div class="home-content">
-            <div class="text-1">Hello, my name is</div>
-            <div class="text-2">Victoria Le</div>
-            <div class="text-3"> And I'm a <span>Sotfware Developer</span> </div>
-
-          </div>
-
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Victoria Le</div>
+          <div class="text-3">And I'm a <span>Web Developer</span> </div>
+        </div>
       </div>
-
     </section>
-    <!-- <div class="mouse-circle"></div>
-    <div class="mouse-dot"></div> -->
-    <!-- <div class="container">
-      <div class="background"></div>
-      <section class="section-1 center">
-        <a href="#" class="logo">Victoria Le</a>
-        <div class="circles">
-          <div class="circles circle-1"></div>
-          <div class="circles circle-2"></div>
-          <div class="circles circle-3"></div>
-          <div class="circles circle-4"></div>
+
+    <!-- About me section -->
+    <section class="about" id="about">
+      <h2 class="tittle">About me</h2>
+      <div class="max-width" >
+        <div class="about-content">
+          <div class="column left">
+            <img src="profile-pic.jpg" alt="">
+          </div>
+          <div class="column right">
+            <ul class="links">
+              <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com
+" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/" target="_blank"><i class="fa fa-git"></i></a></li>
+              <li><a href="#">Resume</a></li>
+            </ul>
+
+          </div>
+
         </div>
-        <div class="main-circle center">
-          <img src="profile-pic.jpg">
-        </div>
-        <h4 class="feature-text feature-1">SOFTWARE</h4>
-        <h4 class="feature-text feature-2">PORTFOLIO</h4>
-        <a href="#" class="main-btn">
-          <div class="main-btn-content center">
-            <div class="main-btn-line"></div>
-            <div class="main-btn-line"></div>
-            <div class="main-btn-line"></div>
-            <span>Projects</span>
-          </div>
-        </a>
-      </section>
-      <section class="section-2">
-        <h1 class="section-2-heading">ABOUT ME</h1>
-        <p class="about-me-text"></p>
-        <a href="#" class="main-btn">
-          <div class="main-btn-content center">
-            <div class="main-btn-line"></div>
-            <div class="main-btn-line"></div>
-            <div class="main-btn-line"></div>
-            <span>STAY CONNECTED</span>
-          </div>
-        </a> -->
-      <!-- </section>
-      <section class="section-3">
-        <h1 class="section-3-heading">MY WORKS</h1>
-        <div class="projects center">
-          <div class="project">
-            <img src="space-battle.jpeg">
-          </div>
-          <div class="project">
-            <img src="landscaper.jpeg">
-          </div>
-        </div>
-      </section>
-    </div> -->
+      </div>
+    </section>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
