@@ -145,6 +145,7 @@ section{
   align-items: center;
   justify-content: space-between;
 }
+
 .about .about-content .left img{
   height: 250px;
   width: 250px;
@@ -155,8 +156,89 @@ section{
 .about .about-content .right{
   height: 250px;
   width: 250px;
-
+  padding-top: 50px;
+  font-size: 20px;
 }
+
+.links li a i:hover {
+  color: #FFB533;
+}
+
+.links li a:hover {
+  color: #FFB533;
+}
+
+/* projects styling */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > img {
+  width: 50%;
+}
+
+h1::before{
+  content: "";
+  position: absolute;
+  width: 330px;
+  height: 3px;
+  background: black;
+}
+
+.container > h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: -1%;
+}
+
+.carousel-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.carousel-images {
+  width: 80%;
+  background: #fa8d8e;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #F2cd99;
+}
+
+.carousel-images img {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+
+.carousel-images img:first-of-type {
+  display: block;
+}
+
+.carousel-btn {
+  align-self: center;
+  background: #f2cd99;
+  color: #888;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px #FFB533;
+}
+
+.carousel-btn:hover{
+  cursor: pointer;
+  background: #FFB533;
+  box-shadow: 1px 1px #f2cd99;
+  color: white;
+}
+
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
@@ -200,4 +282,17 @@ section{
   .home .home-content .text-3{
     font-size: 35px;
   }
+
+  /* about */
+  .about .about-content .left {
+    padding-left: 0 50px;
+    margin: 10px;
+  }
+
+  .about .about-content .right {
+    padding: 40px;
 }
+
+  h1 {
+    font-size: 30px;
+  }
