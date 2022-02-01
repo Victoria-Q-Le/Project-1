@@ -227,6 +227,7 @@ h1::before{
   text-align: center;
   /* opacity: 0; */
   transition: 500ms ease-in-out;
+  display: none;
 }
 
 /* .images:hover + .caption {
