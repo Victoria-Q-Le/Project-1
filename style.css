@@ -222,6 +222,17 @@ h1::before{
   display: block;
 }
 
+.caption {
+  padding-top: 10px;
+  text-align: center;
+  /* opacity: 0; */
+  transition: 500ms ease-in-out;
+}
+
+/* .images:hover + .caption {
+  opacity: 1;
+} */
+
 .carousel-btn {
   align-self: center;
   background: #f2cd99;
